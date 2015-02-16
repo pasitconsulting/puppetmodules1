@@ -1,0 +1,5 @@
+#!/bin/bash
+
+make_resolv_conf() {
+  echo "no auto changes to /etc/resolv.conf"
+}
