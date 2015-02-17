@@ -4,6 +4,8 @@ class ntp inherits yum {
         ensure => installed,
         require => Yumrepo["centos6_latest"],
   }
+  
+  #testing
 
  file { '/etc/ntp.conf':
     ensure => file,
