@@ -1,5 +1,7 @@
 class ntp inherits yum {
 
+#this module is great
+
   package { 'ntp':
         ensure => installed,
         require => Yumrepo["centos6_latest"],
