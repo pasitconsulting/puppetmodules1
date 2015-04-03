@@ -2,6 +2,7 @@ class ntp inherits yum {
 
 #this module is great
 #this module just got better
+#getting hang of this
 
   package { 'ntp':
         ensure => installed,
